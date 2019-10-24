@@ -1,0 +1,2168 @@
+2019-06-08T16:28:27Z I! Loaded inputs: system cpu diskio processes swap procstat disk kernel mem docker
+2019-06-08T16:28:27Z I! Loaded aggregators: 
+2019-06-08T16:28:27Z I! Loaded processors: 
+2019-06-08T16:28:27Z I! Loaded outputs: influxdb
+2019-06-08T16:28:27Z I! Tags enabled: host=msa
+2019-06-08T16:28:27Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T16:28:27Z D! [agent] Connecting outputs
+2019-06-08T16:28:27Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T16:28:27Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T16:28:27Z D! [agent] Starting service inputs
+2019-06-08T16:28:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 53.686085ms
+2019-06-08T16:28:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:28:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 30.604252ms
+2019-06-08T16:28:50Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T16:29:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 29.766864ms
+2019-06-08T16:29:00Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:29:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 10.398688ms
+2019-06-08T16:29:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T16:29:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 47.67896ms
+2019-06-08T16:29:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:29:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 47.210022ms
+2019-06-08T16:29:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:29:40Z D! [outputs.influxdb] wrote batch of 85 metrics in 25.742396ms
+2019-06-08T16:29:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T16:29:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 30.228796ms
+2019-06-08T16:29:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:30:00Z D! [outputs.influxdb] wrote batch of 85 metrics in 49.890705ms
+2019-06-08T16:30:00Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T16:30:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 30.475503ms
+2019-06-08T16:30:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T16:30:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 17.808129ms
+2019-06-08T16:30:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:30:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 36.078361ms
+2019-06-08T16:30:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:30:40Z D! [outputs.influxdb] wrote batch of 81 metrics in 26.920275ms
+2019-06-08T16:30:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:30:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 20.116942ms
+2019-06-08T16:30:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:31:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 59.709593ms
+2019-06-08T16:31:00Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:31:10Z D! [outputs.influxdb] wrote batch of 83 metrics in 15.88251ms
+2019-06-08T16:31:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:31:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 66.374991ms
+2019-06-08T16:31:20Z D! [outputs.influxdb] buffer fullness: 18 / 10000 metrics. 
+2019-06-08T16:31:30Z D! [outputs.influxdb] wrote batch of 85 metrics in 16.809448ms
+2019-06-08T16:31:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T16:31:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 40.788037ms
+2019-06-08T16:31:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:31:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 37.365843ms
+2019-06-08T16:31:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:32:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 35.449426ms
+2019-06-08T16:32:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T16:32:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 35.119864ms
+2019-06-08T16:32:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T16:32:20Z D! [outputs.influxdb] wrote batch of 83 metrics in 20.221546ms
+2019-06-08T16:32:20Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T16:32:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 18.82972ms
+2019-06-08T16:32:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:32:40Z D! [outputs.influxdb] wrote batch of 81 metrics in 28.518438ms
+2019-06-08T16:32:40Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:32:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 44.050357ms
+2019-06-08T16:32:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:33:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 30.314618ms
+2019-06-08T16:33:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:33:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 54.337829ms
+2019-06-08T16:33:10Z D! [outputs.influxdb] buffer fullness: 20 / 10000 metrics. 
+2019-06-08T16:33:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 39.757369ms
+2019-06-08T16:33:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:33:30Z D! [outputs.influxdb] wrote batch of 85 metrics in 35.965579ms
+2019-06-08T16:33:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:33:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 54.417533ms
+2019-06-08T16:33:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:33:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.534193ms
+2019-06-08T16:33:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:34:00Z D! [outputs.influxdb] wrote batch of 77 metrics in 15.480179ms
+2019-06-08T16:34:00Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:34:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 41.695274ms
+2019-06-08T16:34:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:34:20Z D! [outputs.influxdb] wrote batch of 77 metrics in 27.784932ms
+2019-06-08T16:34:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:34:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.304059ms
+2019-06-08T16:34:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:34:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 19.703245ms
+2019-06-08T16:34:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:34:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 16.008578ms
+2019-06-08T16:34:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T16:35:00Z D! [outputs.influxdb] wrote batch of 75 metrics in 49.301204ms
+2019-06-08T16:35:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:35:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 28.634062ms
+2019-06-08T16:35:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:35:20Z D! [outputs.influxdb] wrote batch of 77 metrics in 15.101182ms
+2019-06-08T16:35:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:35:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 19.660455ms
+2019-06-08T16:35:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:35:40Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.002181ms
+2019-06-08T16:35:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:35:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.80238ms
+2019-06-08T16:35:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:36:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 33.099357ms
+2019-06-08T16:36:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:36:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.481698ms
+2019-06-08T16:36:10Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:36:20Z D! [outputs.influxdb] wrote batch of 75 metrics in 41.56021ms
+2019-06-08T16:36:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:36:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 26.450792ms
+2019-06-08T16:36:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:36:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.824288ms
+2019-06-08T16:36:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:36:50Z D! [outputs.influxdb] wrote batch of 75 metrics in 8.828758ms
+2019-06-08T16:36:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:37:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.18129ms
+2019-06-08T16:37:00Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T16:37:10Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.55122ms
+2019-06-08T16:37:10Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:37:20Z D! [outputs.influxdb] wrote batch of 75 metrics in 33.472019ms
+2019-06-08T16:37:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:37:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 9.485221ms
+2019-06-08T16:37:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:37:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.455863ms
+2019-06-08T16:37:40Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:37:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.566216ms
+2019-06-08T16:37:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T16:38:00Z D! [outputs.influxdb] wrote batch of 75 metrics in 12.324027ms
+2019-06-08T16:38:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:38:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.468532ms
+2019-06-08T16:38:10Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:38:17Z D! [agent] Stopping service inputs
+2019-06-08T16:38:17Z D! [agent] Input channel closed
+2019-06-08T16:38:17Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T16:38:17Z D! [outputs.influxdb] wrote batch of 76 metrics in 7.014404ms
+2019-06-08T16:38:17Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:38:17Z D! [agent] Closing outputs
+2019-06-08T16:38:17Z D! [agent] Stopped Successfully
+2019-06-08T16:39:14Z I! Loaded inputs: procstat cpu disk diskio kernel mem swap system processes docker
+2019-06-08T16:39:14Z I! Loaded aggregators: 
+2019-06-08T16:39:14Z I! Loaded processors: 
+2019-06-08T16:39:14Z I! Loaded outputs: influxdb
+2019-06-08T16:39:14Z I! Tags enabled: host=msa
+2019-06-08T16:39:14Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T16:39:14Z D! [agent] Connecting outputs
+2019-06-08T16:39:14Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T16:39:14Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T16:39:14Z D! [agent] Starting service inputs
+2019-06-08T16:39:30Z D! [outputs.influxdb] wrote batch of 111 metrics in 65.556898ms
+2019-06-08T16:39:30Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T16:39:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.871542ms
+2019-06-08T16:39:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:39:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.94536ms
+2019-06-08T16:39:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:40:00Z D! [outputs.influxdb] wrote batch of 79 metrics in 24.109471ms
+2019-06-08T16:40:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:40:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 41.269447ms
+2019-06-08T16:40:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:40:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 15.653256ms
+2019-06-08T16:40:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:40:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 18.444529ms
+2019-06-08T16:40:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T16:40:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 31.638629ms
+2019-06-08T16:40:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:40:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 62.919969ms
+2019-06-08T16:40:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:41:00Z D! [outputs.influxdb] wrote batch of 86 metrics in 19.787848ms
+2019-06-08T16:41:00Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:41:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 14.206499ms
+2019-06-08T16:41:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T16:41:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 54.838982ms
+2019-06-08T16:41:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:41:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 34.452826ms
+2019-06-08T16:41:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:41:40Z D! [outputs.influxdb] wrote batch of 85 metrics in 54.831793ms
+2019-06-08T16:41:40Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T16:41:50Z D! [outputs.influxdb] wrote batch of 80 metrics in 20.700183ms
+2019-06-08T16:41:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:42:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 41.405793ms
+2019-06-08T16:42:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T16:42:10Z D! [outputs.influxdb] wrote batch of 81 metrics in 79.717064ms
+2019-06-08T16:42:10Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T16:42:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 34.91592ms
+2019-06-08T16:42:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:42:30Z D! [outputs.influxdb] wrote batch of 85 metrics in 49.695433ms
+2019-06-08T16:42:30Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:42:40Z D! [outputs.influxdb] wrote batch of 90 metrics in 31.021037ms
+2019-06-08T16:42:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T16:42:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 28.926707ms
+2019-06-08T16:42:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:43:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 24.484978ms
+2019-06-08T16:43:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:43:10Z D! [outputs.influxdb] wrote batch of 80 metrics in 26.232616ms
+2019-06-08T16:43:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:43:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 44.322997ms
+2019-06-08T16:43:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:43:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 29.335905ms
+2019-06-08T16:43:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:43:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 50.431581ms
+2019-06-08T16:43:40Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T16:43:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 52.944943ms
+2019-06-08T16:43:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:44:00Z D! [outputs.influxdb] wrote batch of 86 metrics in 28.527382ms
+2019-06-08T16:44:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:44:10Z D! [outputs.influxdb] wrote batch of 94 metrics in 27.18111ms
+2019-06-08T16:44:10Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T16:44:20Z D! [outputs.influxdb] wrote batch of 73 metrics in 18.997786ms
+2019-06-08T16:44:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T16:44:30Z D! [outputs.influxdb] wrote batch of 85 metrics in 25.865835ms
+2019-06-08T16:44:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:44:40Z D! [outputs.influxdb] wrote batch of 82 metrics in 34.792297ms
+2019-06-08T16:44:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:44:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 57.353697ms
+2019-06-08T16:44:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:45:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.98364ms
+2019-06-08T16:45:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:45:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 32.125696ms
+2019-06-08T16:45:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:45:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.519385ms
+2019-06-08T16:45:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T16:45:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.791184ms
+2019-06-08T16:45:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:45:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.111446ms
+2019-06-08T16:45:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T16:45:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 32.374538ms
+2019-06-08T16:45:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:46:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.629493ms
+2019-06-08T16:46:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:46:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.480349ms
+2019-06-08T16:46:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:46:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 40.625035ms
+2019-06-08T16:46:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:46:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.903409ms
+2019-06-08T16:46:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:46:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.726095ms
+2019-06-08T16:46:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:46:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 50.491542ms
+2019-06-08T16:46:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:47:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.236122ms
+2019-06-08T16:47:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:47:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.890109ms
+2019-06-08T16:47:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:47:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.230096ms
+2019-06-08T16:47:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T16:47:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 26.8057ms
+2019-06-08T16:47:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T16:47:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 24.374316ms
+2019-06-08T16:47:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T16:47:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.712011ms
+2019-06-08T16:47:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:48:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.531102ms
+2019-06-08T16:48:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:48:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.447487ms
+2019-06-08T16:48:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:48:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.524965ms
+2019-06-08T16:48:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:48:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.361822ms
+2019-06-08T16:48:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:48:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.642662ms
+2019-06-08T16:48:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T16:48:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.872273ms
+2019-06-08T16:48:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:49:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 44.228697ms
+2019-06-08T16:49:00Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T16:49:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.632306ms
+2019-06-08T16:49:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:49:20Z D! [outputs.influxdb] wrote batch of 83 metrics in 16.284373ms
+2019-06-08T16:49:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T16:49:30Z D! [outputs.influxdb] wrote batch of 69 metrics in 16.116844ms
+2019-06-08T16:49:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:49:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.454558ms
+2019-06-08T16:49:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:49:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.727253ms
+2019-06-08T16:49:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:50:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.899955ms
+2019-06-08T16:50:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:50:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.838086ms
+2019-06-08T16:50:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:50:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.770497ms
+2019-06-08T16:50:20Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T16:50:23Z D! [agent] Stopping service inputs
+2019-06-08T16:50:23Z D! [agent] Input channel closed
+2019-06-08T16:50:23Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T16:50:23Z D! [outputs.influxdb] wrote batch of 38 metrics in 6.450879ms
+2019-06-08T16:50:23Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:50:23Z D! [agent] Closing outputs
+2019-06-08T16:50:23Z D! [agent] Stopped Successfully
+2019-06-08T16:55:30Z I! Loaded inputs: cpu disk kernel processes swap system diskio mem docker procstat
+2019-06-08T16:55:30Z I! Loaded aggregators: 
+2019-06-08T16:55:30Z I! Loaded processors: 
+2019-06-08T16:55:30Z I! Loaded outputs: influxdb
+2019-06-08T16:55:30Z I! Tags enabled: host=msa
+2019-06-08T16:55:30Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T16:55:30Z D! [agent] Connecting outputs
+2019-06-08T16:55:30Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T16:55:30Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T16:55:30Z D! [agent] Starting service inputs
+2019-06-08T16:55:50Z D! [outputs.influxdb] wrote batch of 111 metrics in 46.910593ms
+2019-06-08T16:55:50Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T16:56:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.835268ms
+2019-06-08T16:56:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:56:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.036532ms
+2019-06-08T16:56:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:56:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.186732ms
+2019-06-08T16:56:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:56:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.285242ms
+2019-06-08T16:56:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:56:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 32.068457ms
+2019-06-08T16:56:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T16:56:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 58.273142ms
+2019-06-08T16:56:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:57:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 68.106961ms
+2019-06-08T16:57:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T16:57:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 42.308468ms
+2019-06-08T16:57:10Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T16:57:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 34.67205ms
+2019-06-08T16:57:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:57:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 38.591963ms
+2019-06-08T16:57:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T16:57:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 36.955783ms
+2019-06-08T16:57:40Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:57:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 22.265223ms
+2019-06-08T16:57:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:58:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 31.582947ms
+2019-06-08T16:58:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:58:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 42.570754ms
+2019-06-08T16:58:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T16:58:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 11.158211ms
+2019-06-08T16:58:20Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:58:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 30.431065ms
+2019-06-08T16:58:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:58:40Z D! [outputs.influxdb] wrote batch of 92 metrics in 39.013652ms
+2019-06-08T16:58:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T16:58:50Z D! [outputs.influxdb] wrote batch of 71 metrics in 23.380103ms
+2019-06-08T16:58:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:59:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 61.029472ms
+2019-06-08T16:59:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:59:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 18.81133ms
+2019-06-08T16:59:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:59:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 20.714301ms
+2019-06-08T16:59:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:59:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 42.266026ms
+2019-06-08T16:59:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T16:59:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 20.347385ms
+2019-06-08T16:59:40Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T16:59:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 15.750857ms
+2019-06-08T16:59:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:00:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 46.928907ms
+2019-06-08T17:00:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:00:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 28.293116ms
+2019-06-08T17:00:10Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:00:20Z D! [outputs.influxdb] wrote batch of 83 metrics in 28.644555ms
+2019-06-08T17:00:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:00:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 23.190649ms
+2019-06-08T17:00:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:00:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 21.586843ms
+2019-06-08T17:00:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:00:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 31.689801ms
+2019-06-08T17:00:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:01:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 22.721248ms
+2019-06-08T17:01:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:01:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 44.065668ms
+2019-06-08T17:01:10Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:01:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 17.180459ms
+2019-06-08T17:01:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:01:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 35.852382ms
+2019-06-08T17:01:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:01:40Z D! [outputs.influxdb] wrote batch of 80 metrics in 32.420221ms
+2019-06-08T17:01:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:01:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.023714ms
+2019-06-08T17:01:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:01:52Z D! [agent] Stopping service inputs
+2019-06-08T17:01:52Z D! [agent] Input channel closed
+2019-06-08T17:01:52Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T17:01:52Z D! [outputs.influxdb] wrote batch of 38 metrics in 5.915419ms
+2019-06-08T17:01:52Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:01:52Z D! [agent] Closing outputs
+2019-06-08T17:01:52Z D! [agent] Stopped Successfully
+2019-06-08T17:03:13Z I! Loaded inputs: cpu disk diskio kernel mem swap system docker procstat processes
+2019-06-08T17:03:13Z I! Loaded aggregators: 
+2019-06-08T17:03:13Z I! Loaded processors: 
+2019-06-08T17:03:13Z I! Loaded outputs: influxdb
+2019-06-08T17:03:13Z I! Tags enabled: host=msa
+2019-06-08T17:03:13Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T17:03:13Z D! [agent] Connecting outputs
+2019-06-08T17:03:13Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T17:03:13Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T17:03:13Z D! [agent] Starting service inputs
+2019-06-08T17:03:30Z D! [outputs.influxdb] wrote batch of 112 metrics in 53.197824ms
+2019-06-08T17:03:30Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:03:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 48.314436ms
+2019-06-08T17:03:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:03:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 26.568493ms
+2019-06-08T17:03:50Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:04:00Z D! [outputs.influxdb] wrote batch of 81 metrics in 43.461793ms
+2019-06-08T17:04:00Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:04:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 32.532327ms
+2019-06-08T17:04:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:04:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 31.207243ms
+2019-06-08T17:04:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:04:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 15.951752ms
+2019-06-08T17:04:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:04:40Z D! [outputs.influxdb] wrote batch of 82 metrics in 19.208346ms
+2019-06-08T17:04:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:04:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 45.164491ms
+2019-06-08T17:04:50Z D! [outputs.influxdb] buffer fullness: 18 / 10000 metrics. 
+2019-06-08T17:05:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 16.971359ms
+2019-06-08T17:05:00Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:05:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 19.627983ms
+2019-06-08T17:05:10Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:05:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 16.604295ms
+2019-06-08T17:05:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:05:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 18.131345ms
+2019-06-08T17:05:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:05:40Z D! [outputs.influxdb] wrote batch of 82 metrics in 44.047523ms
+2019-06-08T17:05:40Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:05:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 14.882334ms
+2019-06-08T17:05:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:06:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 8.870441ms
+2019-06-08T17:06:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:06:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 20.737516ms
+2019-06-08T17:06:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:06:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 12.347114ms
+2019-06-08T17:06:20Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T17:06:30Z D! [outputs.influxdb] wrote batch of 90 metrics in 23.309142ms
+2019-06-08T17:06:30Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:06:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 28.490399ms
+2019-06-08T17:06:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:06:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 14.38882ms
+2019-06-08T17:06:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:07:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 27.00113ms
+2019-06-08T17:07:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:07:10Z D! [outputs.influxdb] wrote batch of 95 metrics in 21.913379ms
+2019-06-08T17:07:10Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:07:20Z D! [outputs.influxdb] wrote batch of 69 metrics in 13.683235ms
+2019-06-08T17:07:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:07:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 35.667597ms
+2019-06-08T17:07:30Z D! [outputs.influxdb] buffer fullness: 18 / 10000 metrics. 
+2019-06-08T17:07:40Z D! [outputs.influxdb] wrote batch of 82 metrics in 42.282529ms
+2019-06-08T17:07:40Z D! [outputs.influxdb] buffer fullness: 18 / 10000 metrics. 
+2019-06-08T17:07:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 12.552941ms
+2019-06-08T17:07:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:08:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 16.43674ms
+2019-06-08T17:08:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:08:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 20.842714ms
+2019-06-08T17:08:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:08:20Z D! [outputs.influxdb] wrote batch of 88 metrics in 31.363373ms
+2019-06-08T17:08:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:08:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.903206ms
+2019-06-08T17:08:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:08:40Z D! [outputs.influxdb] wrote batch of 82 metrics in 32.144468ms
+2019-06-08T17:08:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:08:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 24.708391ms
+2019-06-08T17:08:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:09:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 32.740141ms
+2019-06-08T17:09:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:09:10Z D! [outputs.influxdb] wrote batch of 80 metrics in 13.718769ms
+2019-06-08T17:09:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:09:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 18.906076ms
+2019-06-08T17:09:20Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:09:30Z D! [outputs.influxdb] wrote batch of 90 metrics in 46.248596ms
+2019-06-08T17:09:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:09:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 56.043351ms
+2019-06-08T17:09:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:09:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 32.596602ms
+2019-06-08T17:09:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:10:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 25.915857ms
+2019-06-08T17:10:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:10:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 25.899323ms
+2019-06-08T17:10:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:10:20Z D! [outputs.influxdb] wrote batch of 80 metrics in 22.543523ms
+2019-06-08T17:10:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:10:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 17.044142ms
+2019-06-08T17:10:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:10:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 25.24038ms
+2019-06-08T17:10:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:10:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 51.232109ms
+2019-06-08T17:10:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:11:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 32.474197ms
+2019-06-08T17:11:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:11:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 26.179956ms
+2019-06-08T17:11:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:11:20Z D! [outputs.influxdb] wrote batch of 83 metrics in 33.140448ms
+2019-06-08T17:11:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:11:30Z D! [outputs.influxdb] wrote batch of 85 metrics in 14.327003ms
+2019-06-08T17:11:30Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:11:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 43.384504ms
+2019-06-08T17:11:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:11:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 11.499619ms
+2019-06-08T17:11:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:12:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 16.337296ms
+2019-06-08T17:12:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:12:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 17.492738ms
+2019-06-08T17:12:10Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:12:20Z D! [outputs.influxdb] wrote batch of 83 metrics in 35.953521ms
+2019-06-08T17:12:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:12:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 14.623199ms
+2019-06-08T17:12:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:12:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 20.368502ms
+2019-06-08T17:12:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:12:50Z D! [outputs.influxdb] wrote batch of 90 metrics in 12.680557ms
+2019-06-08T17:12:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:13:00Z D! [outputs.influxdb] wrote batch of 78 metrics in 31.506213ms
+2019-06-08T17:13:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:13:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 33.946521ms
+2019-06-08T17:13:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:13:20Z D! [outputs.influxdb] wrote batch of 88 metrics in 32.501492ms
+2019-06-08T17:13:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:13:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 8.329381ms
+2019-06-08T17:13:30Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T17:13:40Z D! [outputs.influxdb] wrote batch of 77 metrics in 43.695197ms
+2019-06-08T17:13:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:13:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 7.226862ms
+2019-06-08T17:13:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:14:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 30.774044ms
+2019-06-08T17:14:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:14:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 44.391048ms
+2019-06-08T17:14:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:14:20Z D! [outputs.influxdb] wrote batch of 88 metrics in 29.778106ms
+2019-06-08T17:14:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:14:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 41.718639ms
+2019-06-08T17:14:30Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:14:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 17.743661ms
+2019-06-08T17:14:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:14:50Z D! [outputs.influxdb] wrote batch of 92 metrics in 25.483608ms
+2019-06-08T17:14:50Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:15:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.834309ms
+2019-06-08T17:15:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:15:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 32.97437ms
+2019-06-08T17:15:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:15:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 19.19829ms
+2019-06-08T17:15:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:15:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 29.840068ms
+2019-06-08T17:15:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:15:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 39.299607ms
+2019-06-08T17:15:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:15:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 14.24399ms
+2019-06-08T17:15:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:16:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 16.467587ms
+2019-06-08T17:16:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:16:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 29.983493ms
+2019-06-08T17:16:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:16:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 42.420591ms
+2019-06-08T17:16:20Z D! [outputs.influxdb] buffer fullness: 18 / 10000 metrics. 
+2019-06-08T17:16:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 16.195752ms
+2019-06-08T17:16:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:16:40Z D! [outputs.influxdb] wrote batch of 80 metrics in 9.99817ms
+2019-06-08T17:16:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:16:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 28.724837ms
+2019-06-08T17:16:50Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:17:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 36.369266ms
+2019-06-08T17:17:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:17:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 24.36916ms
+2019-06-08T17:17:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:17:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 22.895802ms
+2019-06-08T17:17:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:17:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 29.148201ms
+2019-06-08T17:17:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:17:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 23.019762ms
+2019-06-08T17:17:40Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:17:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 19.65726ms
+2019-06-08T17:17:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:18:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 12.359851ms
+2019-06-08T17:18:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:18:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 11.551626ms
+2019-06-08T17:18:10Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:18:20Z D! [outputs.influxdb] wrote batch of 90 metrics in 20.357767ms
+2019-06-08T17:18:20Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:18:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 28.617547ms
+2019-06-08T17:18:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:18:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 29.517093ms
+2019-06-08T17:18:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:18:50Z D! [outputs.influxdb] wrote batch of 81 metrics in 14.595292ms
+2019-06-08T17:18:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:19:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.497115ms
+2019-06-08T17:19:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:19:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.750128ms
+2019-06-08T17:19:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:19:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.90605ms
+2019-06-08T17:19:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:19:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 11.77961ms
+2019-06-08T17:19:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:19:40Z D! [outputs.influxdb] wrote batch of 70 metrics in 43.935445ms
+2019-06-08T17:19:40Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:19:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.656572ms
+2019-06-08T17:19:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:20:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 28.105429ms
+2019-06-08T17:20:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:20:08Z D! [agent] Stopping service inputs
+2019-06-08T17:20:08Z D! [agent] Input channel closed
+2019-06-08T17:20:08Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T17:20:08Z D! [outputs.influxdb] wrote batch of 76 metrics in 7.274433ms
+2019-06-08T17:20:08Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:20:08Z D! [agent] Closing outputs
+2019-06-08T17:20:08Z D! [agent] Stopped Successfully
+2019-06-08T17:20:47Z I! Loaded inputs: processes docker procstat diskio mem kernel swap system cpu disk
+2019-06-08T17:20:47Z I! Loaded aggregators: 
+2019-06-08T17:20:47Z I! Loaded processors: 
+2019-06-08T17:20:47Z I! Loaded outputs: influxdb
+2019-06-08T17:20:47Z I! Tags enabled: host=msa
+2019-06-08T17:20:47Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T17:20:47Z D! [agent] Connecting outputs
+2019-06-08T17:20:47Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T17:20:47Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T17:20:47Z D! [agent] Starting service inputs
+2019-06-08T17:21:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 71.161504ms
+2019-06-08T17:21:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:21:10Z D! [outputs.influxdb] wrote batch of 90 metrics in 83.075986ms
+2019-06-08T17:21:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:21:20Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.33482ms
+2019-06-08T17:21:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:21:30Z D! [outputs.influxdb] wrote batch of 87 metrics in 15.475346ms
+2019-06-08T17:21:30Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:21:40Z D! [outputs.influxdb] wrote batch of 85 metrics in 28.689268ms
+2019-06-08T17:21:40Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:21:50Z D! [outputs.influxdb] wrote batch of 80 metrics in 31.726919ms
+2019-06-08T17:21:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:22:00Z D! [outputs.influxdb] wrote batch of 88 metrics in 17.397269ms
+2019-06-08T17:22:00Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:22:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 30.687217ms
+2019-06-08T17:22:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:22:20Z D! [outputs.influxdb] wrote batch of 87 metrics in 24.386115ms
+2019-06-08T17:22:20Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:22:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 26.761914ms
+2019-06-08T17:22:30Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:22:40Z D! [outputs.influxdb] wrote batch of 87 metrics in 34.896524ms
+2019-06-08T17:22:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:22:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 65.932963ms
+2019-06-08T17:22:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:23:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 20.496431ms
+2019-06-08T17:23:00Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:23:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 20.466956ms
+2019-06-08T17:23:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:23:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 22.078005ms
+2019-06-08T17:23:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:23:30Z D! [outputs.influxdb] wrote batch of 87 metrics in 57.8886ms
+2019-06-08T17:23:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:23:40Z D! [outputs.influxdb] wrote batch of 90 metrics in 40.295551ms
+2019-06-08T17:23:40Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:23:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 19.098567ms
+2019-06-08T17:23:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:24:00Z D! [outputs.influxdb] wrote batch of 89 metrics in 25.078966ms
+2019-06-08T17:24:00Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T17:24:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.655735ms
+2019-06-08T17:24:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:24:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 74.39291ms
+2019-06-08T17:24:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:24:30Z D! [outputs.influxdb] wrote batch of 85 metrics in 24.59033ms
+2019-06-08T17:24:30Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:24:40Z D! [outputs.influxdb] wrote batch of 89 metrics in 17.281159ms
+2019-06-08T17:24:40Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:24:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 34.511333ms
+2019-06-08T17:24:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:25:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 15.737819ms
+2019-06-08T17:25:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:25:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 13.52623ms
+2019-06-08T17:25:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:25:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 73.086728ms
+2019-06-08T17:25:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:25:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 18.452178ms
+2019-06-08T17:25:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:25:40Z D! [outputs.influxdb] wrote batch of 86 metrics in 23.701701ms
+2019-06-08T17:25:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:25:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 40.380247ms
+2019-06-08T17:25:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:26:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 18.442193ms
+2019-06-08T17:26:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:26:10Z D! [outputs.influxdb] wrote batch of 81 metrics in 46.078561ms
+2019-06-08T17:26:10Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T17:26:20Z D! [outputs.influxdb] wrote batch of 87 metrics in 31.858427ms
+2019-06-08T17:26:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:26:30Z D! [outputs.influxdb] wrote batch of 90 metrics in 49.172994ms
+2019-06-08T17:26:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:26:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 69.166758ms
+2019-06-08T17:26:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:26:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 37.509426ms
+2019-06-08T17:26:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:27:00Z D! [outputs.influxdb] wrote batch of 81 metrics in 27.851789ms
+2019-06-08T17:27:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:27:10Z D! [outputs.influxdb] wrote batch of 91 metrics in 28.701672ms
+2019-06-08T17:27:10Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:27:20Z D! [outputs.influxdb] wrote batch of 73 metrics in 16.190869ms
+2019-06-08T17:27:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:27:30Z D! [outputs.influxdb] wrote batch of 94 metrics in 57.689179ms
+2019-06-08T17:27:30Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T17:27:40Z D! [outputs.influxdb] wrote batch of 77 metrics in 13.299854ms
+2019-06-08T17:27:40Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:27:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 23.901115ms
+2019-06-08T17:27:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:28:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 27.977026ms
+2019-06-08T17:28:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:28:10Z D! [outputs.influxdb] wrote batch of 80 metrics in 31.893091ms
+2019-06-08T17:28:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:28:20Z D! [outputs.influxdb] wrote batch of 87 metrics in 16.257464ms
+2019-06-08T17:28:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:28:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 26.00672ms
+2019-06-08T17:28:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:28:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 43.70695ms
+2019-06-08T17:28:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:28:50Z D! [outputs.influxdb] wrote batch of 90 metrics in 25.602816ms
+2019-06-08T17:28:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:29:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 16.708517ms
+2019-06-08T17:29:00Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:29:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.971935ms
+2019-06-08T17:29:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:29:20Z D! [outputs.influxdb] wrote batch of 86 metrics in 19.138936ms
+2019-06-08T17:29:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:29:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 21.181177ms
+2019-06-08T17:29:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:29:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 38.151791ms
+2019-06-08T17:29:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:29:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 18.424967ms
+2019-06-08T17:29:50Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:30:00Z D! [outputs.influxdb] wrote batch of 90 metrics in 42.149758ms
+2019-06-08T17:30:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:30:10Z D! [outputs.influxdb] wrote batch of 77 metrics in 54.680588ms
+2019-06-08T17:30:10Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T17:30:20Z D! [outputs.influxdb] wrote batch of 85 metrics in 16.315138ms
+2019-06-08T17:30:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:30:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 21.649976ms
+2019-06-08T17:30:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:30:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.054645ms
+2019-06-08T17:30:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:30:50Z D! [outputs.influxdb] wrote batch of 74 metrics in 10.246551ms
+2019-06-08T17:30:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:31:00Z D! [outputs.influxdb] wrote batch of 78 metrics in 8.455216ms
+2019-06-08T17:31:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:31:10Z D! [outputs.influxdb] wrote batch of 77 metrics in 7.435181ms
+2019-06-08T17:31:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:31:20Z D! [outputs.influxdb] wrote batch of 72 metrics in 19.722777ms
+2019-06-08T17:31:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:31:30Z D! [outputs.influxdb] wrote batch of 80 metrics in 16.3585ms
+2019-06-08T17:31:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:31:40Z D! [outputs.influxdb] wrote batch of 77 metrics in 39.091861ms
+2019-06-08T17:31:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:31:50Z D! [outputs.influxdb] wrote batch of 74 metrics in 13.129421ms
+2019-06-08T17:31:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:32:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.530282ms
+2019-06-08T17:32:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:32:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 27.1239ms
+2019-06-08T17:32:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:32:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 28.821273ms
+2019-06-08T17:32:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:32:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 16.47597ms
+2019-06-08T17:32:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:32:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 20.493299ms
+2019-06-08T17:32:40Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:32:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 10.728421ms
+2019-06-08T17:32:50Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:33:00Z D! [outputs.influxdb] wrote batch of 75 metrics in 14.260617ms
+2019-06-08T17:33:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:33:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 41.278928ms
+2019-06-08T17:33:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:33:20Z D! [outputs.influxdb] wrote batch of 74 metrics in 29.39307ms
+2019-06-08T17:33:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:33:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 8.593484ms
+2019-06-08T17:33:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:33:40Z D! [outputs.influxdb] wrote batch of 77 metrics in 18.442347ms
+2019-06-08T17:33:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:33:50Z D! [outputs.influxdb] wrote batch of 75 metrics in 10.793462ms
+2019-06-08T17:33:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:34:00Z D! [outputs.influxdb] wrote batch of 78 metrics in 8.207ms
+2019-06-08T17:34:00Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:34:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 14.023513ms
+2019-06-08T17:34:10Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T17:34:20Z D! [outputs.influxdb] wrote batch of 72 metrics in 19.105906ms
+2019-06-08T17:34:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:34:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 13.495405ms
+2019-06-08T17:34:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:34:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 18.430444ms
+2019-06-08T17:34:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:34:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 5.880971ms
+2019-06-08T17:34:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:35:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 17.662346ms
+2019-06-08T17:35:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:35:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 37.183359ms
+2019-06-08T17:35:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:35:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.585264ms
+2019-06-08T17:35:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:35:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.590478ms
+2019-06-08T17:35:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:35:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.63395ms
+2019-06-08T17:35:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:35:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 10.341533ms
+2019-06-08T17:35:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:36:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 23.384288ms
+2019-06-08T17:36:00Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:36:10Z D! [outputs.influxdb] wrote batch of 70 metrics in 16.366228ms
+2019-06-08T17:36:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:36:20Z D! [outputs.influxdb] wrote batch of 77 metrics in 19.165956ms
+2019-06-08T17:36:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:36:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 14.65078ms
+2019-06-08T17:36:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:36:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 17.664103ms
+2019-06-08T17:36:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:36:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 23.073057ms
+2019-06-08T17:36:50Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:37:00Z D! [outputs.influxdb] wrote batch of 71 metrics in 36.812447ms
+2019-06-08T17:37:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:37:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 11.217244ms
+2019-06-08T17:37:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:37:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.870054ms
+2019-06-08T17:37:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:37:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 22.815417ms
+2019-06-08T17:37:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:37:40Z D! [outputs.influxdb] wrote batch of 80 metrics in 20.358493ms
+2019-06-08T17:37:40Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:37:50Z D! [outputs.influxdb] wrote batch of 72 metrics in 15.989962ms
+2019-06-08T17:37:50Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:38:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 11.36549ms
+2019-06-08T17:38:00Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:38:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 11.507393ms
+2019-06-08T17:38:10Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:38:20Z D! [outputs.influxdb] wrote batch of 71 metrics in 19.202176ms
+2019-06-08T17:38:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:38:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.014944ms
+2019-06-08T17:38:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:38:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.098753ms
+2019-06-08T17:38:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:38:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 19.783285ms
+2019-06-08T17:38:50Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:39:00Z D! [outputs.influxdb] wrote batch of 69 metrics in 43.762121ms
+2019-06-08T17:39:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:39:10Z D! [outputs.influxdb] wrote batch of 74 metrics in 19.548968ms
+2019-06-08T17:39:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:39:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 11.767582ms
+2019-06-08T17:39:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:39:30Z D! [outputs.influxdb] wrote batch of 79 metrics in 16.570866ms
+2019-06-08T17:39:30Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:39:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 13.525397ms
+2019-06-08T17:39:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:39:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.371654ms
+2019-06-08T17:39:50Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:40:00Z D! [outputs.influxdb] wrote batch of 72 metrics in 9.376328ms
+2019-06-08T17:40:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:40:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 10.528375ms
+2019-06-08T17:40:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:40:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.649967ms
+2019-06-08T17:40:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:40:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.575583ms
+2019-06-08T17:40:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:40:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 7.848969ms
+2019-06-08T17:40:40Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:40:50Z D! [outputs.influxdb] wrote batch of 71 metrics in 10.453189ms
+2019-06-08T17:40:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:41:00Z D! [outputs.influxdb] wrote batch of 78 metrics in 14.488505ms
+2019-06-08T17:41:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:41:10Z D! [outputs.influxdb] wrote batch of 74 metrics in 13.132094ms
+2019-06-08T17:41:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:41:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 9.510636ms
+2019-06-08T17:41:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:41:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.196462ms
+2019-06-08T17:41:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:41:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 13.284668ms
+2019-06-08T17:41:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:41:50Z D! [outputs.influxdb] wrote batch of 80 metrics in 12.876665ms
+2019-06-08T17:41:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:42:00Z D! [outputs.influxdb] wrote batch of 74 metrics in 15.65096ms
+2019-06-08T17:42:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:42:10Z D! [outputs.influxdb] wrote batch of 77 metrics in 13.69561ms
+2019-06-08T17:42:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:42:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.155346ms
+2019-06-08T17:42:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:42:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 26.224646ms
+2019-06-08T17:42:30Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:42:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 14.401653ms
+2019-06-08T17:42:40Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:42:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 21.715664ms
+2019-06-08T17:42:50Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:43:00Z D! [outputs.influxdb] wrote batch of 70 metrics in 9.548533ms
+2019-06-08T17:43:00Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:43:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 19.788545ms
+2019-06-08T17:43:10Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:43:20Z D! [outputs.influxdb] wrote batch of 70 metrics in 15.828515ms
+2019-06-08T17:43:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:43:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 19.756067ms
+2019-06-08T17:43:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:43:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.559111ms
+2019-06-08T17:43:40Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T17:43:50Z D! [outputs.influxdb] wrote batch of 72 metrics in 11.013176ms
+2019-06-08T17:43:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:44:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.823955ms
+2019-06-08T17:44:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:44:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 10.926158ms
+2019-06-08T17:44:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:44:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.896381ms
+2019-06-08T17:44:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:44:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 20.161857ms
+2019-06-08T17:44:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:44:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 14.03283ms
+2019-06-08T17:44:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:44:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.974267ms
+2019-06-08T17:44:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:45:00Z D! [outputs.influxdb] wrote batch of 74 metrics in 14.510358ms
+2019-06-08T17:45:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:45:10Z D! [outputs.influxdb] wrote batch of 71 metrics in 26.727051ms
+2019-06-08T17:45:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:45:20Z D! [outputs.influxdb] wrote batch of 88 metrics in 23.135447ms
+2019-06-08T17:45:20Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T17:45:30Z D! [outputs.influxdb] wrote batch of 70 metrics in 12.341473ms
+2019-06-08T17:45:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:45:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 7.429007ms
+2019-06-08T17:45:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:45:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.361757ms
+2019-06-08T17:45:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:46:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.339942ms
+2019-06-08T17:46:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:46:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 20.054782ms
+2019-06-08T17:46:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:46:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.58405ms
+2019-06-08T17:46:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:46:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 32.690585ms
+2019-06-08T17:46:30Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:46:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.630194ms
+2019-06-08T17:46:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:46:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 20.148393ms
+2019-06-08T17:46:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:47:00Z D! [outputs.influxdb] wrote batch of 75 metrics in 11.73876ms
+2019-06-08T17:47:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:47:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.993476ms
+2019-06-08T17:47:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:47:20Z D! [outputs.influxdb] wrote batch of 74 metrics in 10.79074ms
+2019-06-08T17:47:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:47:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 26.958645ms
+2019-06-08T17:47:30Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:47:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 12.743355ms
+2019-06-08T17:47:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:47:50Z D! [outputs.influxdb] wrote batch of 75 metrics in 17.996596ms
+2019-06-08T17:47:50Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:48:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 22.781612ms
+2019-06-08T17:48:00Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T17:48:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 16.755635ms
+2019-06-08T17:48:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:48:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.863269ms
+2019-06-08T17:48:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:48:30Z D! [outputs.influxdb] wrote batch of 70 metrics in 20.333521ms
+2019-06-08T17:48:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:48:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 10.218413ms
+2019-06-08T17:48:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:48:50Z D! [outputs.influxdb] wrote batch of 72 metrics in 10.9483ms
+2019-06-08T17:48:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:49:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.017914ms
+2019-06-08T17:49:00Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:49:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 15.037409ms
+2019-06-08T17:49:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:49:20Z D! [outputs.influxdb] wrote batch of 78 metrics in 16.850314ms
+2019-06-08T17:49:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:49:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 32.713242ms
+2019-06-08T17:49:30Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T17:49:40Z D! [outputs.influxdb] wrote batch of 69 metrics in 12.058577ms
+2019-06-08T17:49:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:49:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.111016ms
+2019-06-08T17:49:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:50:00Z D! [outputs.influxdb] wrote batch of 77 metrics in 34.235092ms
+2019-06-08T17:50:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:50:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 18.369053ms
+2019-06-08T17:50:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:50:20Z D! [outputs.influxdb] wrote batch of 77 metrics in 12.290529ms
+2019-06-08T17:50:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:50:30Z D! [outputs.influxdb] wrote batch of 70 metrics in 10.389264ms
+2019-06-08T17:50:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:50:40Z D! [outputs.influxdb] wrote batch of 81 metrics in 24.54342ms
+2019-06-08T17:50:40Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T17:50:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.1533ms
+2019-06-08T17:50:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:51:00Z D! [outputs.influxdb] wrote batch of 75 metrics in 9.038309ms
+2019-06-08T17:51:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:51:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 13.402975ms
+2019-06-08T17:51:10Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:51:20Z D! [outputs.influxdb] wrote batch of 75 metrics in 16.809512ms
+2019-06-08T17:51:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:51:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 31.762092ms
+2019-06-08T17:51:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:51:40Z D! [outputs.influxdb] wrote batch of 78 metrics in 9.297905ms
+2019-06-08T17:51:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T17:51:50Z D! [outputs.influxdb] wrote batch of 72 metrics in 14.662859ms
+2019-06-08T17:51:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:52:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.79711ms
+2019-06-08T17:52:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:52:10Z D! [outputs.influxdb] wrote batch of 85 metrics in 19.519269ms
+2019-06-08T17:52:10Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:52:20Z D! [outputs.influxdb] wrote batch of 74 metrics in 39.273413ms
+2019-06-08T17:52:20Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:52:30Z D! [outputs.influxdb] wrote batch of 72 metrics in 11.452333ms
+2019-06-08T17:52:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:52:40Z D! [outputs.influxdb] wrote batch of 72 metrics in 12.115451ms
+2019-06-08T17:52:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T17:52:50Z D! [outputs.influxdb] wrote batch of 81 metrics in 36.392811ms
+2019-06-08T17:52:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:53:00Z D! [outputs.influxdb] wrote batch of 72 metrics in 23.858951ms
+2019-06-08T17:53:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:53:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 7.110876ms
+2019-06-08T17:53:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:53:20Z D! [outputs.influxdb] wrote batch of 71 metrics in 14.10924ms
+2019-06-08T17:53:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:53:30Z D! [outputs.influxdb] wrote batch of 79 metrics in 10.262497ms
+2019-06-08T17:53:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:53:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 5.779267ms
+2019-06-08T17:53:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:53:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 25.105341ms
+2019-06-08T17:53:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:54:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 6.860184ms
+2019-06-08T17:54:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:54:10Z D! [outputs.influxdb] wrote batch of 74 metrics in 9.179845ms
+2019-06-08T17:54:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:54:20Z D! [outputs.influxdb] wrote batch of 78 metrics in 26.656886ms
+2019-06-08T17:54:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:54:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.077493ms
+2019-06-08T17:54:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:54:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 30.086588ms
+2019-06-08T17:54:40Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:54:49Z I! Reloading Telegraf config
+2019-06-08T17:54:49Z D! [agent] Stopping service inputs
+2019-06-08T17:54:49Z D! [agent] Input channel closed
+2019-06-08T17:54:49Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T17:54:49Z D! [outputs.influxdb] wrote batch of 73 metrics in 9.768837ms
+2019-06-08T17:54:49Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T17:54:49Z D! [agent] Closing outputs
+2019-06-08T17:54:49Z D! [agent] Stopped Successfully
+2019-06-08T17:54:49Z I! Loaded inputs: diskio kernel processes swap disk mem system docker procstat cpu
+2019-06-08T17:54:49Z I! Loaded aggregators: 
+2019-06-08T17:54:49Z I! Loaded processors: 
+2019-06-08T17:54:49Z I! Loaded outputs: influxdb
+2019-06-08T17:54:49Z I! Tags enabled: host=msa
+2019-06-08T17:54:49Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T17:54:49Z D! [agent] Connecting outputs
+2019-06-08T17:54:49Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T17:54:49Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T17:54:49Z D! [agent] Starting service inputs
+2019-06-08T17:55:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 22.800521ms
+2019-06-08T17:55:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:55:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 46.383061ms
+2019-06-08T17:55:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:55:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.333998ms
+2019-06-08T17:55:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:55:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 14.641178ms
+2019-06-08T17:55:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:55:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 27.454269ms
+2019-06-08T17:55:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:55:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 34.20561ms
+2019-06-08T17:55:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:56:00Z D! [outputs.influxdb] wrote batch of 88 metrics in 21.586673ms
+2019-06-08T17:56:00Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T17:56:10Z D! [outputs.influxdb] wrote batch of 64 metrics in 15.974229ms
+2019-06-08T17:56:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T17:56:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.521365ms
+2019-06-08T17:56:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:56:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 36.57364ms
+2019-06-08T17:56:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:56:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.443537ms
+2019-06-08T17:56:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:56:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.286847ms
+2019-06-08T17:56:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:57:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 21.167673ms
+2019-06-08T17:57:00Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T17:57:10Z D! [outputs.influxdb] wrote batch of 77 metrics in 18.311252ms
+2019-06-08T17:57:10Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:57:20Z D! [outputs.influxdb] wrote batch of 68 metrics in 28.054675ms
+2019-06-08T17:57:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T17:57:30Z D! [outputs.influxdb] wrote batch of 89 metrics in 32.870258ms
+2019-06-08T17:57:30Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T17:57:40Z D! [outputs.influxdb] wrote batch of 63 metrics in 16.347078ms
+2019-06-08T17:57:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:57:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.286395ms
+2019-06-08T17:57:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:58:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 37.797132ms
+2019-06-08T17:58:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T17:58:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.081187ms
+2019-06-08T17:58:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:58:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.825902ms
+2019-06-08T17:58:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:58:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 9.450286ms
+2019-06-08T17:58:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T17:58:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 9.627359ms
+2019-06-08T17:58:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:58:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 8.657182ms
+2019-06-08T17:58:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:59:00Z D! [outputs.influxdb] wrote batch of 74 metrics in 6.711335ms
+2019-06-08T17:59:00Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T17:59:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 7.407453ms
+2019-06-08T17:59:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T17:59:20Z D! [outputs.influxdb] wrote batch of 74 metrics in 22.548054ms
+2019-06-08T17:59:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T17:59:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.764911ms
+2019-06-08T17:59:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:59:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.234063ms
+2019-06-08T17:59:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T17:59:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 15.899731ms
+2019-06-08T17:59:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:00:00Z D! [outputs.influxdb] wrote batch of 70 metrics in 18.56823ms
+2019-06-08T18:00:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:00:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.599533ms
+2019-06-08T18:00:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:00:20Z D! [outputs.influxdb] wrote batch of 78 metrics in 17.247404ms
+2019-06-08T18:00:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:00:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 6.788366ms
+2019-06-08T18:00:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:00:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 21.177893ms
+2019-06-08T18:00:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:00:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.564827ms
+2019-06-08T18:00:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:01:00Z D! [outputs.influxdb] wrote batch of 87 metrics in 11.239859ms
+2019-06-08T18:01:00Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T18:01:10Z D! [outputs.influxdb] wrote batch of 67 metrics in 6.569315ms
+2019-06-08T18:01:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:01:20Z D! [outputs.influxdb] wrote batch of 74 metrics in 20.480471ms
+2019-06-08T18:01:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:01:30Z D! [outputs.influxdb] wrote batch of 78 metrics in 9.897469ms
+2019-06-08T18:01:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:01:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 21.519895ms
+2019-06-08T18:01:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:01:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 37.563901ms
+2019-06-08T18:01:50Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:02:00Z D! [outputs.influxdb] wrote batch of 68 metrics in 28.8112ms
+2019-06-08T18:02:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:02:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.959346ms
+2019-06-08T18:02:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:02:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.497138ms
+2019-06-08T18:02:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:02:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.045105ms
+2019-06-08T18:02:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:02:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.294129ms
+2019-06-08T18:02:40Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:02:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 12.49622ms
+2019-06-08T18:02:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:03:00Z D! [outputs.influxdb] wrote batch of 70 metrics in 17.501861ms
+2019-06-08T18:03:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:03:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.661375ms
+2019-06-08T18:03:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:03:20Z D! [outputs.influxdb] wrote batch of 81 metrics in 15.03921ms
+2019-06-08T18:03:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T18:03:30Z D! [outputs.influxdb] wrote batch of 71 metrics in 16.037456ms
+2019-06-08T18:03:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:03:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 34.451432ms
+2019-06-08T18:03:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:03:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.052379ms
+2019-06-08T18:03:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:04:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.813732ms
+2019-06-08T18:04:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:04:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 59.688829ms
+2019-06-08T18:04:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:04:20Z D! [outputs.influxdb] wrote batch of 68 metrics in 12.110668ms
+2019-06-08T18:04:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:04:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 57.004831ms
+2019-06-08T18:04:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:04:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.680204ms
+2019-06-08T18:04:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:04:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.787915ms
+2019-06-08T18:04:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:05:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.828983ms
+2019-06-08T18:05:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:05:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.074125ms
+2019-06-08T18:05:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:05:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.744283ms
+2019-06-08T18:05:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:05:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.547815ms
+2019-06-08T18:05:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:05:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.219228ms
+2019-06-08T18:05:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:05:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.555105ms
+2019-06-08T18:05:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:06:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.902898ms
+2019-06-08T18:06:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:06:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.562029ms
+2019-06-08T18:06:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:06:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 12.477536ms
+2019-06-08T18:06:20Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T18:06:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 9.876235ms
+2019-06-08T18:06:30Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:06:40Z D! [outputs.influxdb] wrote batch of 69 metrics in 16.149615ms
+2019-06-08T18:06:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:06:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.502862ms
+2019-06-08T18:06:50Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:07:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.487332ms
+2019-06-08T18:07:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:07:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.340929ms
+2019-06-08T18:07:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:07:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.266964ms
+2019-06-08T18:07:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:07:30Z D! [outputs.influxdb] wrote batch of 86 metrics in 25.477063ms
+2019-06-08T18:07:30Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:07:40Z D! [outputs.influxdb] wrote batch of 68 metrics in 16.449009ms
+2019-06-08T18:07:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:07:50Z D! [outputs.influxdb] wrote batch of 74 metrics in 20.652496ms
+2019-06-08T18:07:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:08:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.865674ms
+2019-06-08T18:08:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:08:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 16.737436ms
+2019-06-08T18:08:10Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:08:20Z D! [outputs.influxdb] wrote batch of 80 metrics in 11.611544ms
+2019-06-08T18:08:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T18:08:30Z D! [outputs.influxdb] wrote batch of 70 metrics in 22.470403ms
+2019-06-08T18:08:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:08:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.6075ms
+2019-06-08T18:08:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:08:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.456178ms
+2019-06-08T18:08:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:09:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.003959ms
+2019-06-08T18:09:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:09:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.154821ms
+2019-06-08T18:09:10Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T18:09:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.764307ms
+2019-06-08T18:09:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:09:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 37.771885ms
+2019-06-08T18:09:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:09:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.798012ms
+2019-06-08T18:09:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:09:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 6.504804ms
+2019-06-08T18:09:50Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:10:00Z D! [outputs.influxdb] wrote batch of 74 metrics in 9.220796ms
+2019-06-08T18:10:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:10:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.35827ms
+2019-06-08T18:10:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:10:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.690948ms
+2019-06-08T18:10:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:10:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.352504ms
+2019-06-08T18:10:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:10:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.171907ms
+2019-06-08T18:10:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:10:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 21.525574ms
+2019-06-08T18:10:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:11:00Z D! [outputs.influxdb] wrote batch of 74 metrics in 34.897187ms
+2019-06-08T18:11:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:11:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.005179ms
+2019-06-08T18:11:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:11:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.175204ms
+2019-06-08T18:11:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:11:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.442204ms
+2019-06-08T18:11:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:11:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.111182ms
+2019-06-08T18:11:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:11:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.442037ms
+2019-06-08T18:11:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:12:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.16959ms
+2019-06-08T18:12:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:12:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.710481ms
+2019-06-08T18:12:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:12:20Z D! [outputs.influxdb] wrote batch of 86 metrics in 21.28484ms
+2019-06-08T18:12:20Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:12:30Z D! [outputs.influxdb] wrote batch of 66 metrics in 17.055478ms
+2019-06-08T18:12:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:12:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.608336ms
+2019-06-08T18:12:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:12:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 18.687322ms
+2019-06-08T18:12:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:13:00Z D! [outputs.influxdb] wrote batch of 74 metrics in 10.427917ms
+2019-06-08T18:13:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:13:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.895638ms
+2019-06-08T18:13:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:13:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 13.628608ms
+2019-06-08T18:13:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:13:30Z D! [outputs.influxdb] wrote batch of 73 metrics in 10.280575ms
+2019-06-08T18:13:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:13:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.62187ms
+2019-06-08T18:13:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:13:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.324742ms
+2019-06-08T18:13:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:14:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.052504ms
+2019-06-08T18:14:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:14:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.842508ms
+2019-06-08T18:14:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:14:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 36.455649ms
+2019-06-08T18:14:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:14:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.963331ms
+2019-06-08T18:14:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:14:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.766685ms
+2019-06-08T18:14:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:14:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.384622ms
+2019-06-08T18:14:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:15:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.834738ms
+2019-06-08T18:15:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:15:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.121839ms
+2019-06-08T18:15:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:15:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.187961ms
+2019-06-08T18:15:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:15:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.737211ms
+2019-06-08T18:15:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:15:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 20.648404ms
+2019-06-08T18:15:40Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:15:50Z D! [outputs.influxdb] wrote batch of 68 metrics in 12.869353ms
+2019-06-08T18:15:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:16:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.63251ms
+2019-06-08T18:16:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:16:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.66713ms
+2019-06-08T18:16:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:16:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.198065ms
+2019-06-08T18:16:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:16:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 10.854965ms
+2019-06-08T18:16:30Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:16:40Z D! [outputs.influxdb] wrote batch of 68 metrics in 6.830784ms
+2019-06-08T18:16:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:16:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.393234ms
+2019-06-08T18:16:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:17:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.976046ms
+2019-06-08T18:17:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:17:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.812899ms
+2019-06-08T18:17:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:17:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.475234ms
+2019-06-08T18:17:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:17:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.416908ms
+2019-06-08T18:17:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:17:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.581021ms
+2019-06-08T18:17:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:17:50Z D! [outputs.influxdb] wrote batch of 81 metrics in 31.842038ms
+2019-06-08T18:17:50Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T18:17:58Z D! [agent] Stopping service inputs
+2019-06-08T18:17:58Z D! [agent] Input channel closed
+2019-06-08T18:17:58Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T18:17:58Z D! [outputs.influxdb] wrote batch of 71 metrics in 11.755386ms
+2019-06-08T18:17:58Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T18:17:58Z D! [agent] Closing outputs
+2019-06-08T18:17:58Z D! [agent] Stopped Successfully
+2019-06-08T18:19:40Z I! Loaded inputs: cpu mem swap system procstat disk diskio kernel processes docker
+2019-06-08T18:19:40Z I! Loaded aggregators: 
+2019-06-08T18:19:40Z I! Loaded processors: 
+2019-06-08T18:19:40Z I! Loaded outputs: influxdb
+2019-06-08T18:19:40Z I! Tags enabled: host=msa
+2019-06-08T18:19:40Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T18:19:40Z D! [agent] Connecting outputs
+2019-06-08T18:19:40Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T18:19:40Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T18:19:40Z D! [agent] Starting service inputs
+2019-06-08T18:20:00Z D! [outputs.influxdb] wrote batch of 119 metrics in 73.51562ms
+2019-06-08T18:20:00Z D! [outputs.influxdb] buffer fullness: 21 / 10000 metrics. 
+2019-06-08T18:20:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 30.30541ms
+2019-06-08T18:20:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:20:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 47.893497ms
+2019-06-08T18:20:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:20:30Z D! [outputs.influxdb] wrote batch of 87 metrics in 22.464381ms
+2019-06-08T18:20:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:20:40Z D! [outputs.influxdb] wrote batch of 80 metrics in 12.324119ms
+2019-06-08T18:20:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:20:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 42.680674ms
+2019-06-08T18:20:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:21:00Z D! [outputs.influxdb] wrote batch of 81 metrics in 19.19665ms
+2019-06-08T18:21:00Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:21:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 41.858317ms
+2019-06-08T18:21:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:21:20Z D! [outputs.influxdb] wrote batch of 87 metrics in 34.020557ms
+2019-06-08T18:21:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:21:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 21.909893ms
+2019-06-08T18:21:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:21:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 33.794709ms
+2019-06-08T18:21:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:21:50Z D! [outputs.influxdb] wrote batch of 80 metrics in 43.285487ms
+2019-06-08T18:21:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:22:00Z D! [outputs.influxdb] wrote batch of 87 metrics in 17.523186ms
+2019-06-08T18:22:00Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:22:10Z D! [outputs.influxdb] wrote batch of 81 metrics in 20.73228ms
+2019-06-08T18:22:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:22:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 66.495436ms
+2019-06-08T18:22:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:22:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 68.392645ms
+2019-06-08T18:22:30Z D! [outputs.influxdb] buffer fullness: 21 / 10000 metrics. 
+2019-06-08T18:22:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 23.480237ms
+2019-06-08T18:22:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:22:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 19.328595ms
+2019-06-08T18:22:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:23:00Z D! [outputs.influxdb] wrote batch of 81 metrics in 31.53336ms
+2019-06-08T18:23:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:23:10Z D! [outputs.influxdb] wrote batch of 87 metrics in 18.241071ms
+2019-06-08T18:23:10Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:23:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 31.757617ms
+2019-06-08T18:23:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:23:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 25.526202ms
+2019-06-08T18:23:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:23:40Z D! [outputs.influxdb] wrote batch of 81 metrics in 22.86827ms
+2019-06-08T18:23:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:23:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 23.957877ms
+2019-06-08T18:23:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:24:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 31.739153ms
+2019-06-08T18:24:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:24:10Z D! [outputs.influxdb] wrote batch of 87 metrics in 42.092642ms
+2019-06-08T18:24:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:24:20Z D! [outputs.influxdb] wrote batch of 90 metrics in 43.496209ms
+2019-06-08T18:24:20Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:24:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 28.956826ms
+2019-06-08T18:24:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:24:40Z D! [outputs.influxdb] wrote batch of 87 metrics in 26.69903ms
+2019-06-08T18:24:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:24:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 47.408053ms
+2019-06-08T18:24:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:25:00Z D! [outputs.influxdb] wrote batch of 83 metrics in 26.182301ms
+2019-06-08T18:25:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:25:10Z D! [outputs.influxdb] wrote batch of 81 metrics in 20.524423ms
+2019-06-08T18:25:10Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T18:25:20Z D! [outputs.influxdb] wrote batch of 87 metrics in 38.852813ms
+2019-06-08T18:25:20Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T18:25:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 41.680513ms
+2019-06-08T18:25:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:25:40Z D! [outputs.influxdb] wrote batch of 81 metrics in 36.40891ms
+2019-06-08T18:25:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:25:50Z D! [outputs.influxdb] wrote batch of 87 metrics in 26.01251ms
+2019-06-08T18:25:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:26:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 30.815608ms
+2019-06-08T18:26:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:26:10Z D! [outputs.influxdb] wrote batch of 80 metrics in 60.366764ms
+2019-06-08T18:26:10Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:26:20Z D! [outputs.influxdb] wrote batch of 83 metrics in 55.587764ms
+2019-06-08T18:26:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:26:30Z D! [outputs.influxdb] wrote batch of 82 metrics in 28.658416ms
+2019-06-08T18:26:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:26:40Z D! [outputs.influxdb] wrote batch of 87 metrics in 36.254949ms
+2019-06-08T18:26:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:26:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 15.618504ms
+2019-06-08T18:26:50Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T18:27:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 15.843493ms
+2019-06-08T18:27:00Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:27:10Z D! [outputs.influxdb] wrote batch of 81 metrics in 20.38352ms
+2019-06-08T18:27:10Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:27:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 32.509909ms
+2019-06-08T18:27:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:27:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 41.09567ms
+2019-06-08T18:27:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:27:40Z D! [outputs.influxdb] wrote batch of 90 metrics in 60.047276ms
+2019-06-08T18:27:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:27:50Z D! [outputs.influxdb] wrote batch of 78 metrics in 28.701456ms
+2019-06-08T18:27:50Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:28:00Z D! [outputs.influxdb] wrote batch of 85 metrics in 15.384322ms
+2019-06-08T18:28:00Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:28:10Z D! [outputs.influxdb] wrote batch of 82 metrics in 56.42852ms
+2019-06-08T18:28:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:28:20Z D! [outputs.influxdb] wrote batch of 84 metrics in 17.565643ms
+2019-06-08T18:28:20Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T18:28:30Z D! [outputs.influxdb] wrote batch of 84 metrics in 34.705993ms
+2019-06-08T18:28:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:28:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 39.702571ms
+2019-06-08T18:28:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:28:50Z D! [outputs.influxdb] wrote batch of 81 metrics in 55.763149ms
+2019-06-08T18:28:50Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T18:29:00Z D! [outputs.influxdb] wrote batch of 84 metrics in 42.144768ms
+2019-06-08T18:29:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:29:10Z D! [outputs.influxdb] wrote batch of 87 metrics in 22.379822ms
+2019-06-08T18:29:10Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T18:29:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 18.783681ms
+2019-06-08T18:29:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:29:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 35.80691ms
+2019-06-08T18:29:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:29:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.073695ms
+2019-06-08T18:29:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:29:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 26.368172ms
+2019-06-08T18:29:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:30:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 33.250193ms
+2019-06-08T18:30:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:30:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.099331ms
+2019-06-08T18:30:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:30:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 35.696094ms
+2019-06-08T18:30:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:30:30Z D! [outputs.influxdb] wrote batch of 73 metrics in 7.246972ms
+2019-06-08T18:30:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:30:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 22.333252ms
+2019-06-08T18:30:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:30:50Z D! [outputs.influxdb] wrote batch of 73 metrics in 39.198356ms
+2019-06-08T18:30:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:31:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.439506ms
+2019-06-08T18:31:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:31:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 36.02326ms
+2019-06-08T18:31:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:31:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.812092ms
+2019-06-08T18:31:20Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:31:30Z D! [outputs.influxdb] wrote batch of 79 metrics in 31.481422ms
+2019-06-08T18:31:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:31:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 33.637813ms
+2019-06-08T18:31:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:31:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 36.257634ms
+2019-06-08T18:31:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:32:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.693525ms
+2019-06-08T18:32:00Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:32:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 21.866311ms
+2019-06-08T18:32:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:32:20Z D! [outputs.influxdb] wrote batch of 85 metrics in 22.245713ms
+2019-06-08T18:32:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:32:30Z D! [outputs.influxdb] wrote batch of 67 metrics in 20.516499ms
+2019-06-08T18:32:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:32:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.851231ms
+2019-06-08T18:32:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:32:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 25.718479ms
+2019-06-08T18:32:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:33:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 41.330413ms
+2019-06-08T18:33:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:33:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 8.459347ms
+2019-06-08T18:33:10Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:33:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 28.895753ms
+2019-06-08T18:33:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:33:30Z D! [outputs.influxdb] wrote batch of 73 metrics in 14.118957ms
+2019-06-08T18:33:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:33:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.357727ms
+2019-06-08T18:33:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:33:50Z D! [outputs.influxdb] wrote batch of 79 metrics in 10.002216ms
+2019-06-08T18:33:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:34:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 31.148675ms
+2019-06-08T18:34:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:34:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.829643ms
+2019-06-08T18:34:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:34:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 34.737063ms
+2019-06-08T18:34:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:34:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 9.302258ms
+2019-06-08T18:34:30Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:34:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 14.415695ms
+2019-06-08T18:34:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:34:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.3919ms
+2019-06-08T18:34:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:35:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 30.206466ms
+2019-06-08T18:35:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:35:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 45.45742ms
+2019-06-08T18:35:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:35:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 26.193016ms
+2019-06-08T18:35:20Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:35:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.604253ms
+2019-06-08T18:35:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:35:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.882964ms
+2019-06-08T18:35:40Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:35:50Z D! [outputs.influxdb] wrote batch of 73 metrics in 64.394639ms
+2019-06-08T18:35:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:36:00Z D! [outputs.influxdb] wrote batch of 79 metrics in 10.666769ms
+2019-06-08T18:36:00Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:36:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.611217ms
+2019-06-08T18:36:10Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:36:20Z D! [outputs.influxdb] wrote batch of 73 metrics in 31.544535ms
+2019-06-08T18:36:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:36:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 37.418932ms
+2019-06-08T18:36:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:36:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 32.605886ms
+2019-06-08T18:36:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:36:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.210499ms
+2019-06-08T18:36:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:37:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 18.89696ms
+2019-06-08T18:37:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:37:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 14.890124ms
+2019-06-08T18:37:10Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:37:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.721709ms
+2019-06-08T18:37:20Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:37:30Z D! [outputs.influxdb] wrote batch of 73 metrics in 14.824884ms
+2019-06-08T18:37:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:37:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 40.377971ms
+2019-06-08T18:37:40Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:37:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.838864ms
+2019-06-08T18:37:50Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:38:00Z D! [outputs.influxdb] wrote batch of 79 metrics in 24.048633ms
+2019-06-08T18:38:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:38:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 16.126336ms
+2019-06-08T18:38:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:38:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 26.133145ms
+2019-06-08T18:38:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T18:38:30Z D! [outputs.influxdb] wrote batch of 73 metrics in 33.896728ms
+2019-06-08T18:38:30Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T18:38:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 18.376576ms
+2019-06-08T18:38:40Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T18:38:50Z D! [outputs.influxdb] wrote batch of 73 metrics in 17.501845ms
+2019-06-08T18:38:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:39:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.992578ms
+2019-06-08T18:39:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:39:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 19.375244ms
+2019-06-08T18:39:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:39:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.115033ms
+2019-06-08T18:39:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:39:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.980257ms
+2019-06-08T18:39:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:39:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 13.77887ms
+2019-06-08T18:39:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:39:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.538215ms
+2019-06-08T18:39:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:40:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.353147ms
+2019-06-08T18:40:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:40:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 17.57384ms
+2019-06-08T18:40:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:40:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 35.966581ms
+2019-06-08T18:40:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:40:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.997277ms
+2019-06-08T18:40:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:40:40Z D! [outputs.influxdb] wrote batch of 73 metrics in 19.155286ms
+2019-06-08T18:40:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:40:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.937214ms
+2019-06-08T18:40:50Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:41:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.489718ms
+2019-06-08T18:41:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:41:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.048675ms
+2019-06-08T18:41:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:41:20Z D! [outputs.influxdb] wrote batch of 86 metrics in 26.16615ms
+2019-06-08T18:41:20Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:41:30Z D! [outputs.influxdb] wrote batch of 66 metrics in 16.091308ms
+2019-06-08T18:41:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:41:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 16.344839ms
+2019-06-08T18:41:40Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:41:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.920646ms
+2019-06-08T18:41:50Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T18:42:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.472206ms
+2019-06-08T18:42:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:42:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.317814ms
+2019-06-08T18:42:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T18:42:20Z D! [outputs.influxdb] wrote batch of 73 metrics in 14.289514ms
+2019-06-08T18:42:20Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:42:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.459849ms
+2019-06-08T18:42:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:42:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 14.581886ms
+2019-06-08T18:42:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:42:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.474286ms
+2019-06-08T18:42:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:43:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 31.626702ms
+2019-06-08T18:43:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:43:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 16.842083ms
+2019-06-08T18:43:10Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T18:43:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.936608ms
+2019-06-08T18:43:20Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T18:43:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.475218ms
+2019-06-08T18:43:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T18:43:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.280289ms
+2019-06-08T18:43:40Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T18:43:50Z D! [outputs.influxdb] wrote batch of 73 metrics in 19.388516ms
+2019-06-08T18:43:50Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T18:44:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.543458ms
+2019-06-08T18:44:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:44:03Z D! [agent] Stopping service inputs
+2019-06-08T18:44:03Z D! [agent] Input channel closed
+2019-06-08T18:44:03Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T18:44:03Z D! [outputs.influxdb] wrote batch of 38 metrics in 7.29303ms
+2019-06-08T18:44:03Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T18:44:03Z D! [agent] Closing outputs
+2019-06-08T18:44:03Z D! [agent] Stopped Successfully
+2019-06-08T18:53:52Z I! Loaded inputs: disk kernel processes procstat cpu diskio mem swap system docker
+2019-06-08T18:53:52Z I! Loaded aggregators: 
+2019-06-08T18:53:52Z I! Loaded processors: 
+2019-06-08T18:53:52Z I! Loaded outputs: influxdb
+2019-06-08T18:53:52Z I! Tags enabled: host=msa
+2019-06-08T18:53:52Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T18:53:52Z D! [agent] Connecting outputs
+2019-06-08T18:53:52Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T18:53:52Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T18:53:52Z D! [agent] Starting service inputs
+2019-06-08T18:54:10Z D! [outputs.influxdb] wrote batch of 111 metrics in 59.166068ms
+2019-06-08T18:54:10Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T18:54:20Z D! [outputs.influxdb] wrote batch of 79 metrics in 28.904136ms
+2019-06-08T18:54:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:54:30Z D! [outputs.influxdb] wrote batch of 79 metrics in 23.582662ms
+2019-06-08T18:54:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:54:40Z D! [outputs.influxdb] wrote batch of 78 metrics in 24.590694ms
+2019-06-08T18:54:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:54:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.142457ms
+2019-06-08T18:54:50Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:55:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.509696ms
+2019-06-08T18:55:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:55:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.120948ms
+2019-06-08T18:55:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:55:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.716785ms
+2019-06-08T18:55:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:55:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.114532ms
+2019-06-08T18:55:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:55:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.434796ms
+2019-06-08T18:55:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:55:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 33.11948ms
+2019-06-08T18:55:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T18:56:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.222479ms
+2019-06-08T18:56:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:56:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.30378ms
+2019-06-08T18:56:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:56:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.777628ms
+2019-06-08T18:56:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:56:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.968094ms
+2019-06-08T18:56:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:56:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.367197ms
+2019-06-08T18:56:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:56:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 90.999227ms
+2019-06-08T18:56:50Z D! [outputs.influxdb] buffer fullness: 19 / 10000 metrics. 
+2019-06-08T18:57:00Z D! [outputs.influxdb] wrote batch of 86 metrics in 56.779866ms
+2019-06-08T18:57:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:57:10Z D! [outputs.influxdb] wrote batch of 81 metrics in 17.982142ms
+2019-06-08T18:57:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T18:57:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.551247ms
+2019-06-08T18:57:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:57:30Z D! [outputs.influxdb] wrote batch of 79 metrics in 54.685708ms
+2019-06-08T18:57:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:57:40Z D! [outputs.influxdb] wrote batch of 97 metrics in 37.34337ms
+2019-06-08T18:57:40Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T18:57:50Z D! [outputs.influxdb] wrote batch of 65 metrics in 17.892709ms
+2019-06-08T18:57:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:58:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 51.608831ms
+2019-06-08T18:58:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:58:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.389117ms
+2019-06-08T18:58:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:58:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.856872ms
+2019-06-08T18:58:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:58:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.264829ms
+2019-06-08T18:58:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:58:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 18.064733ms
+2019-06-08T18:58:40Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T18:58:50Z D! [outputs.influxdb] wrote batch of 68 metrics in 37.621087ms
+2019-06-08T18:58:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:59:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.022227ms
+2019-06-08T18:59:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:59:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.448077ms
+2019-06-08T18:59:10Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T18:59:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.909428ms
+2019-06-08T18:59:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:59:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.912316ms
+2019-06-08T18:59:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T18:59:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.987967ms
+2019-06-08T18:59:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T18:59:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.932351ms
+2019-06-08T18:59:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:00:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.628846ms
+2019-06-08T19:00:00Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:00:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.777303ms
+2019-06-08T19:00:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T19:00:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.317077ms
+2019-06-08T19:00:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:00:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 53.715088ms
+2019-06-08T19:00:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:00:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.878512ms
+2019-06-08T19:00:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:00:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.263695ms
+2019-06-08T19:00:50Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:01:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.914465ms
+2019-06-08T19:01:00Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:01:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.786949ms
+2019-06-08T19:01:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:01:20Z D! [outputs.influxdb] wrote batch of 80 metrics in 69.056116ms
+2019-06-08T19:01:20Z D! [outputs.influxdb] buffer fullness: 16 / 10000 metrics. 
+2019-06-08T19:01:30Z D! [outputs.influxdb] wrote batch of 86 metrics in 11.983636ms
+2019-06-08T19:01:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:01:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 7.8737ms
+2019-06-08T19:01:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:01:50Z D! [outputs.influxdb] wrote batch of 81 metrics in 20.060841ms
+2019-06-08T19:01:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:02:00Z D! [outputs.influxdb] wrote batch of 86 metrics in 37.973497ms
+2019-06-08T19:02:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:02:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.457844ms
+2019-06-08T19:02:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:02:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 28.552622ms
+2019-06-08T19:02:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:02:30Z D! [outputs.influxdb] wrote batch of 86 metrics in 18.500735ms
+2019-06-08T19:02:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:02:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.791106ms
+2019-06-08T19:02:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:02:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 37.775609ms
+2019-06-08T19:02:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:03:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 29.75378ms
+2019-06-08T19:03:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:03:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.710332ms
+2019-06-08T19:03:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:03:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 6.751608ms
+2019-06-08T19:03:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:03:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.448923ms
+2019-06-08T19:03:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:03:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.422134ms
+2019-06-08T19:03:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:03:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 30.059178ms
+2019-06-08T19:03:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:04:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.641155ms
+2019-06-08T19:04:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:04:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.584286ms
+2019-06-08T19:04:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:04:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 35.928758ms
+2019-06-08T19:04:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:04:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.503425ms
+2019-06-08T19:04:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:04:38Z D! [agent] Stopping service inputs
+2019-06-08T19:04:38Z D! [agent] Input channel closed
+2019-06-08T19:04:38Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T19:04:38Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.897698ms
+2019-06-08T19:04:38Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:04:38Z D! [agent] Closing outputs
+2019-06-08T19:04:38Z D! [agent] Stopped Successfully
+2019-06-08T19:05:19Z I! Loaded inputs: system docker procstat disk diskio kernel mem processes cpu swap
+2019-06-08T19:05:19Z I! Loaded aggregators: 
+2019-06-08T19:05:19Z I! Loaded processors: 
+2019-06-08T19:05:19Z I! Loaded outputs: influxdb
+2019-06-08T19:05:19Z I! Tags enabled: host=msa
+2019-06-08T19:05:19Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T19:05:19Z D! [agent] Connecting outputs
+2019-06-08T19:05:19Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T19:05:19Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T19:05:19Z D! [agent] Starting service inputs
+2019-06-08T19:05:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 58.373881ms
+2019-06-08T19:05:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:05:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.184242ms
+2019-06-08T19:05:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:05:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.749161ms
+2019-06-08T19:05:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:06:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.122263ms
+2019-06-08T19:06:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:06:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.657405ms
+2019-06-08T19:06:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:06:20Z D! [outputs.influxdb] wrote batch of 73 metrics in 19.875397ms
+2019-06-08T19:06:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:06:30Z D! [outputs.influxdb] wrote batch of 79 metrics in 26.659041ms
+2019-06-08T19:06:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T19:06:40Z D! [outputs.influxdb] wrote batch of 84 metrics in 17.132692ms
+2019-06-08T19:06:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:06:50Z D! [outputs.influxdb] wrote batch of 68 metrics in 11.853951ms
+2019-06-08T19:06:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:07:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.874821ms
+2019-06-08T19:07:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:07:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.155391ms
+2019-06-08T19:07:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:07:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 38.942255ms
+2019-06-08T19:07:20Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:07:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 25.342854ms
+2019-06-08T19:07:30Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T19:07:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 22.838173ms
+2019-06-08T19:07:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:07:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.923976ms
+2019-06-08T19:07:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:08:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 25.77011ms
+2019-06-08T19:08:00Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:08:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 20.81741ms
+2019-06-08T19:08:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:08:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.895693ms
+2019-06-08T19:08:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:08:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.963363ms
+2019-06-08T19:08:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:08:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 32.840053ms
+2019-06-08T19:08:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:08:50Z D! [outputs.influxdb] wrote batch of 90 metrics in 19.677495ms
+2019-06-08T19:08:50Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T19:09:00Z D! [outputs.influxdb] wrote batch of 71 metrics in 23.484381ms
+2019-06-08T19:09:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:09:10Z D! [outputs.influxdb] wrote batch of 87 metrics in 44.495659ms
+2019-06-08T19:09:10Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:09:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.917107ms
+2019-06-08T19:09:20Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:09:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 12.69521ms
+2019-06-08T19:09:30Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T19:09:40Z D! [outputs.influxdb] wrote batch of 79 metrics in 58.446338ms
+2019-06-08T19:09:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:09:50Z D! [outputs.influxdb] wrote batch of 81 metrics in 37.696159ms
+2019-06-08T19:09:50Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:10:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.685927ms
+2019-06-08T19:10:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:10:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 34.350101ms
+2019-06-08T19:10:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:10:11Z D! [agent] Stopping service inputs
+2019-06-08T19:10:11Z D! [agent] Input channel closed
+2019-06-08T19:10:11Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T19:10:11Z D! [outputs.influxdb] wrote batch of 35 metrics in 5.047903ms
+2019-06-08T19:10:11Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:10:11Z D! [agent] Closing outputs
+2019-06-08T19:10:11Z D! [agent] Stopped Successfully
+2019-06-08T19:11:34Z I! Loaded inputs: swap docker procstat disk kernel mem processes system cpu diskio
+2019-06-08T19:11:34Z I! Loaded aggregators: 
+2019-06-08T19:11:34Z I! Loaded processors: 
+2019-06-08T19:11:34Z I! Loaded outputs: influxdb
+2019-06-08T19:11:34Z I! Tags enabled: host=msa
+2019-06-08T19:11:34Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T19:11:34Z D! [agent] Connecting outputs
+2019-06-08T19:11:34Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T19:11:34Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T19:11:34Z D! [agent] Starting service inputs
+2019-06-08T19:11:50Z D! [outputs.influxdb] wrote batch of 111 metrics in 60.543639ms
+2019-06-08T19:11:50Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T19:12:00Z D! [outputs.influxdb] wrote batch of 77 metrics in 37.646862ms
+2019-06-08T19:12:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:12:10Z D! [outputs.influxdb] wrote batch of 86 metrics in 33.399923ms
+2019-06-08T19:12:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:12:20Z D! [outputs.influxdb] wrote batch of 81 metrics in 29.215665ms
+2019-06-08T19:12:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:12:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 15.877654ms
+2019-06-08T19:12:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:12:40Z D! [outputs.influxdb] wrote batch of 86 metrics in 30.842129ms
+2019-06-08T19:12:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:12:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.965201ms
+2019-06-08T19:12:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:13:00Z D! [outputs.influxdb] wrote batch of 79 metrics in 76.137149ms
+2019-06-08T19:13:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:13:10Z D! [outputs.influxdb] wrote batch of 84 metrics in 19.237584ms
+2019-06-08T19:13:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:13:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.312672ms
+2019-06-08T19:13:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:13:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.705249ms
+2019-06-08T19:13:30Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:13:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.418828ms
+2019-06-08T19:13:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:13:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.852281ms
+2019-06-08T19:13:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:14:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.893739ms
+2019-06-08T19:14:00Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T19:14:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.72469ms
+2019-06-08T19:14:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:14:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.334524ms
+2019-06-08T19:14:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:14:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.793199ms
+2019-06-08T19:14:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:14:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.774799ms
+2019-06-08T19:14:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:14:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.355656ms
+2019-06-08T19:14:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:15:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.216273ms
+2019-06-08T19:15:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:15:01Z D! [agent] Stopping service inputs
+2019-06-08T19:15:01Z D! [agent] Input channel closed
+2019-06-08T19:15:01Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T19:15:01Z D! [outputs.influxdb] wrote batch of 38 metrics in 8.339347ms
+2019-06-08T19:15:01Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:15:01Z D! [agent] Closing outputs
+2019-06-08T19:15:01Z D! [agent] Stopped Successfully
+2019-06-08T19:16:17Z I! Loaded inputs: cpu disk diskio kernel mem processes swap system docker procstat
+2019-06-08T19:16:17Z I! Loaded aggregators: 
+2019-06-08T19:16:17Z I! Loaded processors: 
+2019-06-08T19:16:17Z I! Loaded outputs: influxdb
+2019-06-08T19:16:17Z I! Tags enabled: host=msa
+2019-06-08T19:16:17Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T19:16:17Z D! [agent] Connecting outputs
+2019-06-08T19:16:17Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T19:16:17Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T19:16:17Z D! [agent] Starting service inputs
+2019-06-08T19:16:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 48.525058ms
+2019-06-08T19:16:30Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:16:40Z D! [outputs.influxdb] wrote batch of 78 metrics in 20.743952ms
+2019-06-08T19:16:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:16:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 49.453754ms
+2019-06-08T19:16:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:17:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 39.496915ms
+2019-06-08T19:17:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:17:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 15.066242ms
+2019-06-08T19:17:10Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:17:20Z D! [outputs.influxdb] wrote batch of 81 metrics in 32.688008ms
+2019-06-08T19:17:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:17:30Z D! [outputs.influxdb] wrote batch of 83 metrics in 18.10916ms
+2019-06-08T19:17:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T19:17:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 13.552664ms
+2019-06-08T19:17:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:17:50Z D! [outputs.influxdb] wrote batch of 83 metrics in 24.932738ms
+2019-06-08T19:17:50Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:18:00Z D! [outputs.influxdb] wrote batch of 82 metrics in 10.580074ms
+2019-06-08T19:18:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:18:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.60061ms
+2019-06-08T19:18:10Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T19:18:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 15.17156ms
+2019-06-08T19:18:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:18:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 12.59006ms
+2019-06-08T19:18:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:18:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 37.145999ms
+2019-06-08T19:18:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:18:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 10.365442ms
+2019-06-08T19:18:50Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:19:00Z D! [outputs.influxdb] wrote batch of 78 metrics in 17.825756ms
+2019-06-08T19:19:00Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:19:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 17.211055ms
+2019-06-08T19:19:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:19:20Z D! [outputs.influxdb] wrote batch of 80 metrics in 9.311165ms
+2019-06-08T19:19:20Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:19:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 36.042035ms
+2019-06-08T19:19:30Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:19:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.803597ms
+2019-06-08T19:19:40Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:19:50Z D! [outputs.influxdb] wrote batch of 74 metrics in 36.885523ms
+2019-06-08T19:19:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:20:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 14.003441ms
+2019-06-08T19:20:00Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T19:20:10Z D! [outputs.influxdb] wrote batch of 78 metrics in 13.581651ms
+2019-06-08T19:20:10Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T19:20:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 38.839309ms
+2019-06-08T19:20:20Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:20:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.646821ms
+2019-06-08T19:20:30Z D! [outputs.influxdb] buffer fullness: 9 / 10000 metrics. 
+2019-06-08T19:20:40Z D! [outputs.influxdb] wrote batch of 72 metrics in 6.717333ms
+2019-06-08T19:20:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:20:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 18.96286ms
+2019-06-08T19:20:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T19:21:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 17.23095ms
+2019-06-08T19:21:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:21:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 13.205616ms
+2019-06-08T19:21:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:21:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 26.206725ms
+2019-06-08T19:21:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:21:30Z D! [outputs.influxdb] wrote batch of 80 metrics in 10.474996ms
+2019-06-08T19:21:30Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:21:40Z D! [outputs.influxdb] wrote batch of 75 metrics in 26.659856ms
+2019-06-08T19:21:40Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:21:50Z D! [outputs.influxdb] wrote batch of 75 metrics in 24.960994ms
+2019-06-08T19:21:50Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:22:00Z D! [outputs.influxdb] wrote batch of 78 metrics in 25.850263ms
+2019-06-08T19:22:00Z D! [outputs.influxdb] buffer fullness: 8 / 10000 metrics. 
+2019-06-08T19:22:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 25.616425ms
+2019-06-08T19:22:10Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:22:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.61097ms
+2019-06-08T19:22:20Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:22:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 21.832315ms
+2019-06-08T19:22:30Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:22:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 24.85112ms
+2019-06-08T19:22:40Z D! [outputs.influxdb] buffer fullness: 12 / 10000 metrics. 
+2019-06-08T19:22:46Z D! [agent] Stopping service inputs
+2019-06-08T19:22:46Z D! [agent] Input channel closed
+2019-06-08T19:22:46Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T19:22:46Z D! [outputs.influxdb] wrote batch of 74 metrics in 22.088786ms
+2019-06-08T19:22:46Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:22:46Z D! [agent] Closing outputs
+2019-06-08T19:22:46Z D! [agent] Stopped Successfully
+2019-06-08T19:24:45Z I! Loaded inputs: disk kernel swap procstat cpu diskio mem processes system docker
+2019-06-08T19:24:45Z I! Loaded aggregators: 
+2019-06-08T19:24:45Z I! Loaded processors: 
+2019-06-08T19:24:45Z I! Loaded outputs: influxdb
+2019-06-08T19:24:45Z I! Tags enabled: host=msa
+2019-06-08T19:24:45Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T19:24:45Z D! [agent] Connecting outputs
+2019-06-08T19:24:45Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T19:24:45Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T19:24:45Z D! [agent] Starting service inputs
+2019-06-08T19:25:00Z D! [outputs.influxdb] wrote batch of 73 metrics in 55.74905ms
+2019-06-08T19:25:00Z D! [outputs.influxdb] buffer fullness: 17 / 10000 metrics. 
+2019-06-08T19:25:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 37.182113ms
+2019-06-08T19:25:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:25:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 46.401624ms
+2019-06-08T19:25:20Z D! [outputs.influxdb] buffer fullness: 20 / 10000 metrics. 
+2019-06-08T19:25:30Z D! [outputs.influxdb] wrote batch of 86 metrics in 28.835904ms
+2019-06-08T19:25:30Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:25:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 35.684843ms
+2019-06-08T19:25:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:25:50Z D! [outputs.influxdb] wrote batch of 82 metrics in 51.243231ms
+2019-06-08T19:25:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:26:00Z D! [outputs.influxdb] wrote batch of 86 metrics in 23.082805ms
+2019-06-08T19:26:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:26:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 41.735092ms
+2019-06-08T19:26:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:26:20Z D! [outputs.influxdb] wrote batch of 82 metrics in 25.091414ms
+2019-06-08T19:26:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:26:30Z D! [outputs.influxdb] wrote batch of 81 metrics in 27.471197ms
+2019-06-08T19:26:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:26:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.812034ms
+2019-06-08T19:26:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:26:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.219474ms
+2019-06-08T19:26:50Z D! [outputs.influxdb] buffer fullness: 7 / 10000 metrics. 
+2019-06-08T19:27:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.200987ms
+2019-06-08T19:27:00Z D! [outputs.influxdb] buffer fullness: 10 / 10000 metrics. 
+2019-06-08T19:27:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 21.944989ms
+2019-06-08T19:27:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:27:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 40.209384ms
+2019-06-08T19:27:20Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:27:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.388425ms
+2019-06-08T19:27:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:27:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.805699ms
+2019-06-08T19:27:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:27:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.498711ms
+2019-06-08T19:27:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:28:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.235372ms
+2019-06-08T19:28:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:28:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.377496ms
+2019-06-08T19:28:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:28:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.591616ms
+2019-06-08T19:28:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:28:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.609073ms
+2019-06-08T19:28:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:28:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.085227ms
+2019-06-08T19:28:40Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:28:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 40.554349ms
+2019-06-08T19:28:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:29:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 17.444533ms
+2019-06-08T19:29:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:29:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.768649ms
+2019-06-08T19:29:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:29:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 9.781033ms
+2019-06-08T19:29:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:29:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.368692ms
+2019-06-08T19:29:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:29:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.035373ms
+2019-06-08T19:29:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:29:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.885452ms
+2019-06-08T19:29:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:30:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 23.464798ms
+2019-06-08T19:30:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:30:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.243224ms
+2019-06-08T19:30:10Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:30:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.001595ms
+2019-06-08T19:30:20Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:30:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.40133ms
+2019-06-08T19:30:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:30:40Z D! [outputs.influxdb] wrote batch of 78 metrics in 26.757321ms
+2019-06-08T19:30:40Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:30:50Z D! [outputs.influxdb] wrote batch of 74 metrics in 35.960472ms
+2019-06-08T19:30:50Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:31:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 27.590457ms
+2019-06-08T19:31:00Z D! [outputs.influxdb] buffer fullness: 15 / 10000 metrics. 
+2019-06-08T19:31:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 31.896752ms
+2019-06-08T19:31:10Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:31:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 20.959411ms
+2019-06-08T19:31:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:31:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 19.641947ms
+2019-06-08T19:31:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:31:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.183313ms
+2019-06-08T19:31:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:31:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.938927ms
+2019-06-08T19:31:50Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:32:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 22.071006ms
+2019-06-08T19:32:00Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:32:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.915528ms
+2019-06-08T19:32:10Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:32:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 16.26184ms
+2019-06-08T19:32:20Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:32:30Z D! [outputs.influxdb] wrote batch of 76 metrics in 10.255364ms
+2019-06-08T19:32:30Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:32:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.164133ms
+2019-06-08T19:32:40Z D! [outputs.influxdb] buffer fullness: 13 / 10000 metrics. 
+2019-06-08T19:32:50Z D! [outputs.influxdb] wrote batch of 76 metrics in 13.279916ms
+2019-06-08T19:32:50Z D! [outputs.influxdb] buffer fullness: 14 / 10000 metrics. 
+2019-06-08T19:32:54Z D! [agent] Stopping service inputs
+2019-06-08T19:32:54Z D! [agent] Input channel closed
+2019-06-08T19:32:54Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T19:32:54Z D! [outputs.influxdb] wrote batch of 38 metrics in 14.913002ms
+2019-06-08T19:32:54Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:32:54Z D! [agent] Closing outputs
+2019-06-08T19:32:54Z D! [agent] Stopped Successfully
+2019-06-08T19:33:35Z I! Loaded inputs: disk diskio system docker cpu kernel mem processes swap procstat
+2019-06-08T19:33:35Z I! Loaded aggregators: 
+2019-06-08T19:33:35Z I! Loaded processors: 
+2019-06-08T19:33:35Z I! Loaded outputs: influxdb
+2019-06-08T19:33:35Z I! Tags enabled: host=msa
+2019-06-08T19:33:35Z I! [agent] Config: Interval:5s, Quiet:false, Hostname:"msa", Flush Interval:10s
+2019-06-08T19:33:35Z D! [agent] Connecting outputs
+2019-06-08T19:33:35Z D! [agent] Attempting connection to output: influxdb
+2019-06-08T19:33:35Z D! [agent] Successfully connected to output: influxdb
+2019-06-08T19:33:35Z D! [agent] Starting service inputs
+2019-06-08T19:33:50Z D! [outputs.influxdb] wrote batch of 85 metrics in 32.53227ms
+2019-06-08T19:33:50Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:34:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.541345ms
+2019-06-08T19:34:00Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:34:10Z D! [outputs.influxdb] wrote batch of 79 metrics in 37.941131ms
+2019-06-08T19:34:10Z D! [outputs.influxdb] buffer fullness: 11 / 10000 metrics. 
+2019-06-08T19:34:20Z D! [outputs.influxdb] wrote batch of 89 metrics in 36.095194ms
+2019-06-08T19:34:20Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:34:30Z D! [outputs.influxdb] wrote batch of 75 metrics in 11.808645ms
+2019-06-08T19:34:30Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:34:40Z D! [outputs.influxdb] wrote batch of 83 metrics in 17.725694ms
+2019-06-08T19:34:40Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:34:50Z D! [outputs.influxdb] wrote batch of 84 metrics in 39.619897ms
+2019-06-08T19:34:50Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:35:00Z D! [outputs.influxdb] wrote batch of 80 metrics in 13.88389ms
+2019-06-08T19:35:00Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:35:10Z D! [outputs.influxdb] wrote batch of 76 metrics in 11.665012ms
+2019-06-08T19:35:10Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:35:20Z D! [outputs.influxdb] wrote batch of 85 metrics in 35.18908ms
+2019-06-08T19:35:20Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:35:30Z D! [outputs.influxdb] wrote batch of 77 metrics in 17.296182ms
+2019-06-08T19:35:30Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:35:40Z D! [outputs.influxdb] wrote batch of 74 metrics in 10.872236ms
+2019-06-08T19:35:40Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:35:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 20.117359ms
+2019-06-08T19:35:50Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:36:00Z D! [outputs.influxdb] wrote batch of 77 metrics in 13.784915ms
+2019-06-08T19:36:00Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T19:36:10Z D! [outputs.influxdb] wrote batch of 73 metrics in 12.779145ms
+2019-06-08T19:36:10Z D! [outputs.influxdb] buffer fullness: 6 / 10000 metrics. 
+2019-06-08T19:36:20Z D! [outputs.influxdb] wrote batch of 80 metrics in 15.892465ms
+2019-06-08T19:36:20Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:36:30Z D! [outputs.influxdb] wrote batch of 74 metrics in 7.062927ms
+2019-06-08T19:36:30Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:36:40Z D! [outputs.influxdb] wrote batch of 76 metrics in 25.334684ms
+2019-06-08T19:36:40Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:36:50Z D! [outputs.influxdb] wrote batch of 77 metrics in 14.680605ms
+2019-06-08T19:36:50Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:37:00Z D! [outputs.influxdb] wrote batch of 76 metrics in 18.784495ms
+2019-06-08T19:37:00Z D! [outputs.influxdb] buffer fullness: 2 / 10000 metrics. 
+2019-06-08T19:37:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 27.402271ms
+2019-06-08T19:37:10Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T19:37:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 8.608344ms
+2019-06-08T19:37:20Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:37:30Z D! [outputs.influxdb] wrote batch of 74 metrics in 8.693307ms
+2019-06-08T19:37:30Z D! [outputs.influxdb] buffer fullness: 5 / 10000 metrics. 
+2019-06-08T19:37:40Z D! [outputs.influxdb] wrote batch of 78 metrics in 20.314629ms
+2019-06-08T19:37:40Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:37:50Z D! [outputs.influxdb] wrote batch of 75 metrics in 13.45176ms
+2019-06-08T19:37:50Z D! [outputs.influxdb] buffer fullness: 4 / 10000 metrics. 
+2019-06-08T19:38:00Z D! [outputs.influxdb] wrote batch of 77 metrics in 10.506959ms
+2019-06-08T19:38:00Z D! [outputs.influxdb] buffer fullness: 1 / 10000 metrics. 
+2019-06-08T19:38:10Z D! [outputs.influxdb] wrote batch of 75 metrics in 19.403701ms
+2019-06-08T19:38:10Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:38:20Z D! [outputs.influxdb] wrote batch of 76 metrics in 12.893497ms
+2019-06-08T19:38:20Z D! [outputs.influxdb] buffer fullness: 3 / 10000 metrics. 
+2019-06-08T19:38:21Z D! [agent] Stopping service inputs
+2019-06-08T19:38:21Z D! [agent] Input channel closed
+2019-06-08T19:38:21Z I! [agent] Hang on, flushing any cached metrics before shutdown
+2019-06-08T19:38:21Z D! [outputs.influxdb] wrote batch of 27 metrics in 5.941182ms
+2019-06-08T19:38:21Z D! [outputs.influxdb] buffer fullness: 0 / 10000 metrics. 
+2019-06-08T19:38:21Z D! [agent] Closing outputs
+2019-06-08T19:38:21Z D! [agent] Stopped Successfully

@@ -1,0 +1,20 @@
+;
+; BIND data file for local loopback interface
+;
+; https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-14-04
+$TTL	604800
+@	IN	SOA	jpbourbon-httpspeed.io. root.jpbourbon-httpspeed.io. (
+			      4		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+	IN	NS	ns.jpbourbon-httpspeed.io. 
+ns.jpbourbon-httpspeed.io. 	IN	A	192.168.1.7
+msd.jpbourbon-httpspeed.io.	IN	A	192.168.1.9
+msa.jpbourbon-httpspeed.io.	IN	A	192.168.1.7
+msb.jpbourbon-httpspeed.io.	IN	A	192.168.1.12
+msc.jpbourbon-httpspeed.io.	IN	A	192.168.1.5
+db.jpbourbon-httpspeed.io.	IN	A	192.168.1.7
+influx.jpbourbon-httpspeed.io.	IN	A	192.168.1.7

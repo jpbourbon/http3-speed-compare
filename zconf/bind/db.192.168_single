@@ -1,0 +1,19 @@
+;
+; BIND reverse data file for broadcast zone
+;
+$TTL	604800
+@	IN	SOA	jpbourbon-httpspeed.io. root.localhost. (
+			      4		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+	IN	NS	ns.jpbourbon-httpspeed.io.
+1.7	IN	PTR	ns.jpbourbon-httpspeed.io.
+1.7	IN	PTR	msa.jpbourbon-httpspeed.io.
+1.7	IN	PTR	msb.jpbourbon-httpspeed.io.
+1.7	IN	PTR	msc.jpbourbon-httpspeed.io.
+1.7	IN	PTR	msd.jpbourbon-httpspeed.io.
+1.7	IN	PTR	db.jpbourbon-httpspeed.io.
+1.7	IN	PTR	influx.jpbourbon-httpspeed.io.
